@@ -1,9 +1,9 @@
 import React from "react";
 import Navbar from "./components/Navbar";
 import { Routes, Route } from "react-router-dom";
-import Favourites from "./components/Favourites";
-import Details from "./components/Details";
-import Home from "./components/Home";
+import Favourites from "./pages/Favourites";
+import Details from "./pages/Details";
+import Home from "./pages/Home";
 
 const App = () => {
   return (

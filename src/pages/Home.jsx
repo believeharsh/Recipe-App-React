@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { GlobelContext } from "../Context/GobalContext/GlobelContext";
-import RecipeItem from "./RecipeItem";
+import RecipeItem from "../components/RecipeItem";
 
 const Home = () => {
   const { recipeList, loading } = useContext(GlobelContext);
